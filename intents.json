@@ -1,0 +1,99 @@
+{
+    "intents": [
+        {
+            "intent": "Greet",
+            "examples": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What can I do for you today?",
+                "Hey! How can I help you with our meal options?"
+            ]
+        },
+        {
+            "intent": "Goodbye",
+            "examples": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Talk to you soon"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Feel free to come back if you have more questions.",
+                "Bye! Let us know if you need any more help."
+            ]
+        },
+        {
+            "intent": "MealTypes",
+            "examples": [
+                "What types of meals do you offer?",
+                "Tell me about your meal options",
+                "What kinds of meals can I order?",
+                "Do you have vegetarian options?",
+                "What gluten-free meals do you have?"
+            ],
+            "responses": [
+                "We offer a variety of meals including vegetarian, gluten-free, low-carb, and high-protein options. What are you interested in?",
+                "Our meal options include vegetarian, gluten-free, low-carb, and high-protein meals. Do you have a specific type in mind?"
+            ]
+        },
+        {
+            "intent": "MealRecommendations",
+            "examples": [
+                "Can you recommend a meal?",
+                "What meal should I try?",
+                "Give me a meal recommendation",
+                "What do you suggest I order?"
+            ],
+            "responses": [
+                "Based on our popular choices, I recommend trying our Grilled Chicken Breast or Quinoa Salad. Do you have any dietary preferences?",
+                "You might enjoy our Beef Steak or Salmon Fillet. Are there any specific types of meals you are looking for?"
+            ]
+        },
+        {
+            "intent": "DietaryRestrictions",
+            "examples": [
+                "Do you have meals for people with dietary restrictions?",
+                "I need a gluten-free meal",
+                "What vegetarian meals do you have?",
+                "Are there low-carb options?"
+            ],
+            "responses": [
+                "Yes, we have meals that cater to various dietary restrictions, including gluten-free, vegetarian, and low-carb options. What are your specific requirements?",
+                "We offer a range of meals suitable for different dietary needs, such as gluten-free, vegetarian, and low-carb. Can you tell me more about your restrictions?"
+            ]
+        },
+        {
+            "intent": "OrderStatus",
+            "examples": [
+                "Where is my order?",
+                "Can I check the status of my order?",
+                "How do I track my order?",
+                "What is the status of my meal delivery?"
+            ],
+            "responses": [
+                "You can track your order status by logging into your account and going to the 'Order History' section.",
+                "To check the status of your order, please visit the 'Order History' page in your account."
+            ]
+        },
+        {
+            "intent": "Help",
+            "examples": [
+                "I need help",
+                "Can you assist me?",
+                "Help me with my order",
+                "How does this work?"
+            ],
+            "responses": [
+                "Sure, I'm here to help! What do you need assistance with?",
+                "I'm happy to assist. Please tell me what you need help with."
+            ]
+        }
+    ]
+}
