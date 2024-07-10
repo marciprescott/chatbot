@@ -33,7 +33,7 @@
                 "I am a bit active"
             ],
             "responses": [
-                "Based on your activity level I would recommend turkey breast or salmon with asparagus."
+                "Based on your activity level I would recommend  our delicious Turkey Breast or Tuna Steak."
             ]
         },
         {
@@ -45,7 +45,7 @@
                 "Calories"
             ],
             "responses": [
-                "Based on your calorie requirements I would recommend Vegetarian Chili or Steak."
+                "Based on your calorie requirements I would recommend Vegetarian Chili.  You might  also enjoy trying our Beef and Broccoli Stir-Fry or Vegetable Stir-Fry with Tofu, they are low calorie and delicious"
             ]
         },
         {
@@ -253,7 +253,7 @@
             ]
         },
         {
-            "tag": "QuinoaSalad",
+            "tag": "Quinoa_Salad",
             "patterns": [
                 "Tell me about Quinoa Salad",
                 "What are the nutritional facts for Quinoa Salad?",
@@ -265,7 +265,7 @@
             ]
         },
         {
-            "tag": "GrilledChickenSalad",
+            "tag": "Grilled_Chicken_Salad",
             "patterns": [
                 "Tell me about Grilled Chicken Salad",
                 "What are the nutritional facts for Grilled Chicken Salad?",
@@ -277,7 +277,7 @@
             ]
         },
         {
-            "tag": "BeefAndBroccoliStirFry",
+            "tag": "Beef_AndBroccoli_StirFry",
             "patterns": [
                 "Tell me about Beef and Broccoli Stir-Fry",
                 "What are the nutritional facts for Beef and Broccoli Stir-Fry?",
@@ -289,7 +289,7 @@
             ]
         },
         {
-            "tag": "VegetableStirFryWithTofu",
+            "tag": "Vegetable_StirFry_With_Tofu",
             "patterns": [
                 "Tell me about Vegetable Stir-Fry with Tofu",
                 "What are the nutritional facts for Vegetable Stir-Fry with Tofu?",
@@ -301,7 +301,7 @@
             ]
         },
         {
-            "tag": "SpaghettiBolognese",
+            "tag": "Spaghetti_Bolognese",
             "patterns": [
                 "Tell me about Spaghetti Bolognese",
                 "What are the nutritional facts for Spaghetti Bolognese?",
@@ -313,7 +313,7 @@
             ]
         },
         {
-            "tag": "ChickenFajitas",
+            "tag": "Chicken_Fajitas",
             "patterns": [
                 "Tell me about Chicken Fajitas",
                 "What are the nutritional facts for Chicken Fajitas?",
@@ -325,7 +325,7 @@
             ]
         },
         {
-            "tag": "BeefStroganoff",
+            "tag": "Beef_Stroganoff",
             "patterns": [
                 "Tell me about Beef Stroganoff",
                 "What are the nutritional facts for Beef Stroganoff?",
@@ -337,7 +337,7 @@
             ]
         },
         {
-            "tag": "ChickenAlfredo",
+            "tag": "Chicken_Alfredo",
             "patterns": [
                 "Tell me about Chicken Alfredo (Gluten-Free)",
                 "What are the nutritional facts for Chicken Alfredo (Gluten-Free)?",
@@ -349,7 +349,7 @@
             ]
         },
         {
-            "tag": "SalmonWithAsparagus",
+            "tag": "Salmon_With_Asparagus",
             "patterns": [
                 "Tell me about Salmon with Asparagus (Gluten-Free)",
                 "What are the nutritional facts for Salmon with Asparagus (Gluten-Free)?",
@@ -361,7 +361,7 @@
             ]
         },
         {
-            "tag": "ShrimpScampi",
+            "tag": "Shrimp_Scampi",
             "patterns": [
                 "Tell me about Shrimp Scampi (Gluten-Free)",
                 "What are the nutritional facts for Shrimp Scampi (Gluten-Free)?",
@@ -377,12 +377,119 @@
             "patterns": [
                 "Can you recommend a meal?",
                 "What meal should I try?",
-                "Give me a meal recommendation",
+                "Give me a meal idea",
                 "What do you suggest I order?"
             ],
             "responses": [
-                "Based on our popular choices, I recommend trying our Grilled Chicken Salad or Quinoa Salad. Do you have any dietary preferences?",
-                "You might enjoy our Beef and Broccoli Stir-Fry or Vegetable Stir-Fry with Tofu. Are there any specific types of meals you are looking for?"
+                "Based on our popular choices, I recommend trying our Grilled Chicken Salad or Quinoa Salad. They're healthy and delicious options."
+            ]
+        },
+        {
+            "tag": "gluten_free",
+            "patterns": [
+                "Do you have gluten free options?",
+                "I am allergic to gluten?",
+                "Gluten Free Meals",
+                "I have Gluten Allergy?"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend the gluten free versions of our Shrimp Scampi or Beef Stroganoff. I would also suggest the Quinoa Salad or Chicken Caesar Wrap with a Gluten Free Spinach Tortilla."
+            ]
+        },
+        {
+            "tag": "family_size",
+            "patterns": [
+                "Do you have larger portions?",
+                "Do you have family size?",
+                "Family size meals",
+                "Larger portions"
+            ],
+            "responses": [
+                "Yes, we offer family-sized portions for some of our meals. They're perfect for sharing!"
+            ]
+        },
+        {
+            "tag": "vegetarian",
+            "patterns": [
+                "Do you have vegetarian options?",
+                "I am vegetarian",
+                "Vegetarian meals",
+                "Vegetarian options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Vegetarian Chili or Vegetable Lasagna."
+            ]
+        },
+        {
+            "tag": "vegan",
+            "patterns": [
+                "Do you have vegan options?",
+                "I am vegan",
+                "Vegan meals",
+                "Vegan options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Vegetable Stir-Fry with Tofu or Quinoa Salad."
+            ]
+        },
+        {
+            "tag": "low_calorie",
+            "patterns": [
+                "Do you have low calorie options?",
+                "I am on a diet",
+                "Low calorie meals",
+                "Low calorie options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Beef and Broccoli Stir-Fry or Vegetable Stir-Fry with Tofu."
+            ]
+        },
+        {
+            "tag": "high_protein",
+            "patterns": [
+                "Do you have high protein options?",
+                "I am looking for high protein meals",
+                "High protein meals",
+                "High protein options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Turkey Meatballs or Tuna Steak."
+            ]
+        },
+        {
+            "tag": "high_fiber",
+            "patterns": [
+                "Do you have high fiber options?",
+                "I am looking for high fiber meals",
+                "High fiber meals",
+                "High fiber options"
+            ],
+            "responses": [
+                "Because you are looking for high fiber options I would recommend our Quinoa Salad or Vegetable Lasagna. "
+            ]
+        },
+        {
+            "tag": "high_carb",
+            "patterns": [
+                "Do you have high carb options?",
+                "I am looking for high carb meals",
+                "High carb meals",
+                "High carb options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Chicken Alfredo or Beef Stroganoff, both have delicious pasta great for carb loading."
+            ]
+        },
+        {
+            "tag": "seafood_pescatarian",
+            "patterns": [
+                "Seafood options?",
+                "I am a pescatarian",
+                "Pescatarian options",
+                "Anything with seafood?"
+            ],
+            "responses": [
+                "I would highly recommend the Shrimp Scampi or Salmon with Asparagus."
             ]
         },
         {
@@ -394,8 +501,33 @@
                 "Suggest a meal for me"
             ],
             "responses": [
-                "How about trying our Spaghetti Bolognese or Chicken Fajitas? They're both customer favorites.",
-                "I suggest our Beef Stroganoff or Chicken Alfredo (Gluten-Free). They're delicious and popular choices."
+                "How about trying our Spaghetti Bolognese or Chicken Fajitas? They're both customer favorites."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks that is great!",
+                "Thank you for your help",
+                "Thanks for the information",
+                "Thanks"
+            ],
+            "responses": [
+                "You are very welcome, have a great day!!."
+            ]
+        },
+        {
+            "tag": "good_bye",
+            "patterns": [
+                "Good Bye",
+                "Goodbye",
+                "Bye",
+                "That is all",
+                "That's all for now."
+            ],
+            "responses": [
+                "Goodbye and thanks for visiting Chef's Choice!!!."
             ]
         }
     ]
